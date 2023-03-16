@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript" language="javasript">
+
+      function checkPalindrome(text){
+        const len=text.length;
+        for(let i=0; i<len/2; i++){
+          if(text[i]==text[len-1-i]){
+            alert('It is a Palindrome');
+          }
+
+        }
+        alert('It is not a Palindrome');
+
+    }
+      const text=prompt("Enter  a string");
+      const value=checkPalindrome(text);
+      console.log(value);
+
+      </script>
+  </body>
+</html>
